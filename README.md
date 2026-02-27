@@ -5,11 +5,15 @@ Repositorio de presentacion comercial para ofrecer servicios de armado y diseño
 ## Incluye
 
 - Landing de propuesta lista para mostrar en reunion: `index.html`
+- Caso demo completo (luminaria + mobiliario): `caso-lumen-hogar.html`
+- Demo Tiendanube (vista tienda): `tiendanube-lumen-demo.html`
+- Demo Empretienda (vista tienda): `empretienda-lumen-demo.html`
 - Estilos modernos y responsive: `styles.css`
 - CTA a WhatsApp configurable: `script.js`
 - URL de share anti-cache para WhatsApp/IG: `share.html`
 - Documento editable de propuesta formal: `propuesta-comercial.md`
 - Guion de presentacion para cierre: `guion-reunion.md`
+- Kit de implementacion para mostrar proceso: `demo-kit/lumen-hogar/`
 
 ## Como usar
 

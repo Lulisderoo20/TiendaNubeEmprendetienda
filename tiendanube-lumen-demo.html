@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Demo Tiendanube | Lumen Hogar</title>
+  <meta name="description" content="Vista demo de tienda Tiendanube para luminaria y mobiliario.">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .store-shell { padding-top: 3.6rem; }
+    .store-hero { padding: 1.4rem; margin-bottom: 1rem; }
+    .badge { display: inline-block; font-size: .78rem; border: 1px solid rgba(19,33,47,.2); border-radius: 999px; padding: .32rem .64rem; margin-right: .35rem; }
+    .store-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: .9rem; }
+    .product-card { background: #fffaf1; border: 1px solid rgba(19,33,47,.16); border-radius: 16px; overflow: hidden; box-shadow: 0 12px 24px rgba(19,33,47,.08); }
+    .product-card img { width: 100%; display: block; aspect-ratio: 1/1; object-fit: cover; }
+    .product-body { padding: .75rem; }
+    .product-title { margin: 0 0 .35rem; font-weight: 700; font-size: .95rem; }
+    .product-cat { margin: 0 0 .35rem; color: #4a5a66; font-size: .82rem; }
+    .product-price { margin: 0; font-weight: 700; }
+    .store-nav { display: flex; gap: .45rem; flex-wrap: wrap; margin: .8rem 0 1.1rem; }
+    @media (max-width: 960px) { .store-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+    @media (max-width: 560px) { .store-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="bg-layer"></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div class="brand">
+        <img src="assets/brand/logo-mark.png" alt="Logo" class="brand-logo">
+        <span>Demo Tiendanube · Lumen Hogar</span>
+      </div>
+      <a class="btn ghost" href="caso-lumen-hogar.html">Volver al Caso</a>
+    </div>
+  </header>
+
+  <main class="container store-shell">
+    <section class="panel store-hero">
+      <p class="eyebrow">Preview de Implementacion</p>
+      <h1 style="max-width: 20ch;">Lumen Hogar en Tiendanube</h1>
+      <p class="lead" style="max-width:70ch;">Esta es la estructura comercial que implemento en Tiendanube: menu por categorias, colecciones destacadas, cards de producto claras y CTA directo al checkout.</p>
+      <div class="store-nav">
+        <span class="badge">Iluminacion</span>
+        <span class="badge">Mobiliario</span>
+        <span class="badge">Ofertas</span>
+        <span class="badge">Novedades</span>
+        <span class="badge">Ambientes</span>
+      </div>
+      <a class="btn" href="demo-kit/lumen-hogar/tiendanube_implementacion.md">Ver Implementacion Tiendanube</a>
+    </section>
+
+    <section class="store-grid">
+      <article class="product-card">
+        <img src="https://picsum.photos/seed/ltn1/900/900" alt="Lampara Colgante Aura">
+        <div class="product-body">
+          <p class="product-title">Lampara Colgante Aura</p>
+          <p class="product-cat">Colgantes</p>
+          <p class="product-price">USD 129</p>
+        </div>
+      </article>
+      <article class="product-card">
+        <img src="https://picsum.photos/seed/ltn2/900/900" alt="Lampara de Pie Nexo">
+        <div class="product-body">
+          <p class="product-title">Lampara de Pie Nexo</p>
+          <p class="product-cat">De pie</p>
+          <p class="product-price">USD 189</p>
+        </div>
+      </article>
+      <article class="product-card">
+        <img src="https://picsum.photos/seed/ltn3/900/900" alt="Mesa Ratona Oslo">
+        <div class="product-body">
+          <p class="product-title">Mesa Ratona Oslo</p>
+          <p class="product-cat">Living</p>
+          <p class="product-price">USD 249</p>
+        </div>
+      </article>
+      <article class="product-card">
+        <img src="https://picsum.photos/seed/ltn4/900/900" alt="Consola Recibidor Nara">
+        <div class="product-body">
+          <p class="product-title">Consola Recibidor Nara</p>
+          <p class="product-cat">Entrada</p>
+          <p class="product-price">USD 279</p>
+        </div>
+      </article>
+      <article class="product-card">
+        <img src="https://picsum.photos/seed/ltn5/900/900" alt="Sillon Atelier 2C">
+        <div class="product-body">
+          <p class="product-title">Sillon Atelier 2C</p>
+          <p class="product-cat">Living</p>
+          <p class="product-price">USD 490</p>
+        </div>
+      </article>
+      <article class="product-card">
+        <img src="https://picsum.photos/seed/ltn6/900/900" alt="Rack TV Nova">
+        <div class="product-body">
+          <p class="product-title">Rack TV Nova</p>
+          <p class="product-cat">Living</p>
+          <p class="product-price">USD 329</p>
+        </div>
+      </article>
+      <article class="product-card">
+        <img src="https://picsum.photos/seed/ltn7/900/900" alt="Biblioteca Vertica">
+        <div class="product-body">
+          <p class="product-title">Biblioteca Vertica</p>
+          <p class="product-cat">Home Office</p>
+          <p class="product-price">USD 279</p>
+        </div>
+      </article>
+      <article class="product-card">
+        <img src="https://picsum.photos/seed/ltn8/900/900" alt="Aplique Mural Faro">
+        <div class="product-body">
+          <p class="product-title">Aplique Mural Faro</p>
+          <p class="product-cat">Pared</p>
+          <p class="product-price">USD 94</p>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

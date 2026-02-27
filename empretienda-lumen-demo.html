@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Demo Empretienda | Lumen Hogar</title>
+  <meta name="description" content="Vista demo de tienda Empretienda para luminaria y mobiliario.">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .shell { padding-top: 3.6rem; }
+    .hero-box { padding: 1.4rem; margin-bottom: 1rem; }
+    .layout { display: grid; grid-template-columns: 260px 1fr; gap: 1rem; }
+    .sidebar { background: #fffaf1; border: 1px solid rgba(19,33,47,.16); border-radius: 16px; padding: .95rem; box-shadow: 0 10px 22px rgba(19,33,47,.08); height: fit-content; }
+    .sidebar h3 { margin: .2rem 0 .7rem; font-size: 1.05rem; }
+    .sidebar ul { margin: 0; padding-left: 1rem; display: grid; gap: .35rem; }
+    .grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .9rem; }
+    .card { background: #fffaf1; border: 1px solid rgba(19,33,47,.16); border-radius: 14px; overflow: hidden; box-shadow: 0 10px 20px rgba(19,33,47,.08); }
+    .card img { width: 100%; display: block; aspect-ratio: 1/1; object-fit: cover; }
+    .body { padding: .72rem; }
+    .ttl { margin: 0 0 .3rem; font-weight: 700; font-size: .94rem; }
+    .meta { margin: 0 0 .3rem; color: #4a5a66; font-size: .81rem; }
+    .price { margin: 0; font-weight: 700; }
+    @media (max-width: 980px) { .layout { grid-template-columns: 1fr; } .grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+    @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="bg-layer"></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div class="brand">
+        <img src="assets/brand/logo-mark.png" alt="Logo" class="brand-logo">
+        <span>Demo Empretienda · Lumen Hogar</span>
+      </div>
+      <a class="btn ghost" href="caso-lumen-hogar.html">Volver al Caso</a>
+    </div>
+  </header>
+
+  <main class="container shell">
+    <section class="panel hero-box">
+      <p class="eyebrow">Preview de Implementacion</p>
+      <h1 style="max-width: 20ch;">Lumen Hogar en Empretienda</h1>
+      <p class="lead" style="max-width:70ch;">Este demo replica una tienda Empretienda orientada a velocidad y conversion mobile: categorias visibles, destacados por prioridad y fichas con informacion clara.</p>
+      <a class="btn" href="demo-kit/lumen-hogar/empretienda_implementacion.md">Ver Implementacion Empretienda</a>
+    </section>
+
+    <section class="layout">
+      <aside class="sidebar">
+        <h3>Categorias</h3>
+        <ul>
+          <li>Luminaria / Colgantes</li>
+          <li>Luminaria / Techo</li>
+          <li>Luminaria / De Pie</li>
+          <li>Mobiliario / Living</li>
+          <li>Mobiliario / Comedor</li>
+          <li>Mobiliario / Home Office</li>
+          <li>Ofertas de Lanzamiento</li>
+        </ul>
+      </aside>
+      <div class="grid">
+        <article class="card">
+          <img src="https://picsum.photos/seed/emp1/900/900" alt="Lampara Techo Zenit">
+          <div class="body"><p class="ttl">Lampara Techo Zenit</p><p class="meta">Luminaria / Techo</p><p class="price">USD 159</p></div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/emp2/900/900" alt="Lampara Mesa Cubo">
+          <div class="body"><p class="ttl">Lampara Mesa Cubo</p><p class="meta">Luminaria / Mesa</p><p class="price">USD 99</p></div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/emp3/900/900" alt="Mesa Comedor Duna">
+          <div class="body"><p class="ttl">Mesa Comedor Duna</p><p class="meta">Mobiliario / Comedor</p><p class="price">USD 459</p></div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/emp4/900/900" alt="Escritorio Lineal Roble">
+          <div class="body"><p class="ttl">Escritorio Lineal Roble</p><p class="meta">Mobiliario / Home Office</p><p class="price">USD 299</p></div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/emp5/900/900" alt="Silla Comedor Kai">
+          <div class="body"><p class="ttl">Silla Comedor Kai</p><p class="meta">Mobiliario / Comedor</p><p class="price">USD 89</p></div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/emp6/900/900" alt="Set Banqueta Lena">
+          <div class="body"><p class="ttl">Set Banqueta Lena x2</p><p class="meta">Mobiliario / Cocina</p><p class="price">USD 169</p></div>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
