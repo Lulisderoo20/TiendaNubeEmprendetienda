@@ -1,6 +1,6 @@
 # Propuesta Tiendanube + Empretienda
 
-Repositorio de presentacion comercial para ofrecer servicios de armado y diseno de tiendas online.
+Repositorio de presentacion comercial para ofrecer servicios de armado y diseño de tiendas online.
 
 ## Incluye
 

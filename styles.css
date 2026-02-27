@@ -63,12 +63,11 @@ body {
   font-size: 0.86rem;
 }
 
-.brand-dot {
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  box-shadow: 0 0 0 5px rgba(235, 122, 46, 0.16);
+.brand-logo {
+  width: 26px;
+  height: 26px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(19, 33, 47, 0.24);
 }
 
 .hero {

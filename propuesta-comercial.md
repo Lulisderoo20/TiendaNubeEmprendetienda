@@ -1,7 +1,7 @@
 # Propuesta Comercial
 
 ## Servicio
-Diseno, armado y lanzamiento de tienda en Tiendanube o Empretienda.
+Diseño, armado y lanzamiento de tienda en Tiendanube o Empretienda.
 
 ## Objetivo
 Entregar una tienda lista para vender con buena experiencia de compra, marca consistente y estructura orientada a conversion.
@@ -9,7 +9,7 @@ Entregar una tienda lista para vender con buena experiencia de compra, marca con
 ## Alcance del trabajo
 
 - Configuracion de tienda (pagos, envios, politicas y checkout)
-- Diseno de home, colecciones y fichas de producto
+- Diseño de home, colecciones y fichas de producto
 - Carga de catalogo inicial (productos, variantes y fotos)
 - SEO basico on-page (titulos, descripciones y estructura)
 - Integraciones clave (WhatsApp, pixel/meta y analitica)
@@ -26,7 +26,7 @@ Entregar una tienda lista para vender con buena experiencia de compra, marca con
 ### Plan Pro (Escalamiento)
 - Entrega: 10 a 14 dias
 - Hasta 120 productos
-- Diseno mas personalizado
+- Diseño mas personalizado
 - 2 rondas de ajustes
 - Inversion estimada: completar
 
@@ -50,6 +50,6 @@ Entregar una tienda lista para vender con buena experiencia de compra, marca con
 
 ## Contacto
 
-- WhatsApp: completar
-- Email: completar
+- WhatsApp: +5491126601086
+- Email: lulisdero20@gmail.com
 - Ciudad/Pais: completar
