@@ -1,3 +1,4 @@
-﻿.vscode/
+.vscode/
 .DS_Store
 Thumbs.db
+out/store_demos/frames/
